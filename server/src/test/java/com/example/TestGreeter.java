@@ -20,7 +20,7 @@ public class TestGreeter {
   @Test
   public void greetShouldIncludeTheOneBeingGreeted() {
     String someone = "I am great World";
-    System.out.println("I am great");
+    System.out.println("I am great and love yourself");
     assertThat(greeter.greet(someone), containsString(someone));
   }
 
